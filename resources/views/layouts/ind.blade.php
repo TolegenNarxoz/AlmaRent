@@ -18,6 +18,7 @@
     <link rel="stylesheet" href="{{asset('css/ignore_in_wp.css')}}"/>
     <link rel="stylesheet" href="{{asset('css/theme.css')}}"/>
     <link rel="stylesheet" href="{{asset('css/responsive.css')}}"/>
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
     <!-- End Include All CSS -->
 
     <!-- Favicon Icon -->
@@ -34,7 +35,7 @@
             <div class="col-lg-2 col-md-2">
                 <div class="logo">
                     <a href="{{url('/')}}">
-                        <h5>RentStore</h5>
+                        <h5>AlmaRent</h5>
                     </a>
                 </div>
             </div>
@@ -50,7 +51,7 @@
                         <li class="menu-item-has-children">
                             <a href="javascript:void(0);">Rent</a>
                             <ul class="sub-menu">
-                                <li><a href="{{route('products.index')}}">Products</a></li>
+                                <li><a href="{{route('products.index')}}">Cars</a></li>
                             </ul>
                         </li>
                         <li class="menu-item-has-children">
@@ -121,16 +122,7 @@
                     <div class="foo-logo">
                         <a href="index.html"><img src="assets/images/logo.png" alt=""/></a>
                     </div>
-                    <p>
-                        We are a team of professionals specializing in providing a wide range of equipment
-                        for rent for various needs. Regardless of whether you need equipment for private or
-                        commercial purposes, we are ready to offer you the best solutions.
-                    </p>
                     <div class="ab-social">
-                        <a href="#"><i class="twi-facebook"></i></a>
-                        <a href="#"><i class="twi-twitter"></i></a>
-                        <a href="#"><i class="twi-instagram"></i></a>
-                        <a href="#"><i class="twi-linkedin"></i></a>
                     </div>
                 </aside>
             </div>
@@ -168,7 +160,7 @@
 
             </div>
             <div class="col-lg-6 col-md-7">
-                <div class="copys-text"><i class="twi-copyright"></i>Copyright RentStore | All Rights Reserved</div>
+                <div class="copys-text"><i class="twi-copyright"></i>Copyright AlmaRent | All Rights Reserved</div>
             </div>
         </div>
     </div>
@@ -205,5 +197,6 @@
 <!-- Rev slider Add on End -->
 
 <script src="{{asset('js/theme.js')}}"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0/dist/js/bootstrap.bundle.min.js"></script>
 </body>
 </html>

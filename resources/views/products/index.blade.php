@@ -16,7 +16,11 @@
                                 <li><a href="{{route('products.category', $cat->id)}}">{{$cat->name}}</a></li>
                             </ul>
                         @endforeach
+                        <ul>
+                            <li><input class="form-control search-form" placeholder="Search"></li>
+                        </ul>
                     </div>
+
                 </div>
             </div>
             <div class="row">
@@ -30,7 +34,7 @@
                                 <h4>{{$product->name}}</h4>
                                 <div class="product-price clearfix">
                                     <span class="price">
-                                        <ins><span><span class="woocommerce-Price-currencySymbol">$</span>{{$product->price}}</span></ins>
+                                        <ins><span><span class="woocommerce-Price-currencySymbol">₸</span>{{$product->price}}</span></ins>
                                     </span>
                                 </div>
                                 <div class="sp-details-hover">

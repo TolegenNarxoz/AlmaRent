@@ -25,35 +25,7 @@
                 <div class="col-lg-7">
                     <h3 class="sec-title">About</h3>
                     <p>
-                        We are a team of professionals specializing in providing a wide range of equipment for rent for various needs. Regardless of whether you need equipment for private or commercial purposes, we are ready to offer you the best solutions.
-                    </p>
-                    <p>
-                        Our goal is to provide our customers with reliable, high-quality and modern equipment. We constantly update our product range, follow the latest trends in technology and strive to meet all your needs.
-                    </p>
-                    <p>
-                        Why choose us:
-                    </p>
-                    <p>
-                        1. A wide selection of equipment: We offer a diverse range of products, from household appliances to professional equipment. Here you will find everything you need.
-                    </p>
-                    <p>
-                        2. Quality and reliability: We work only with proven manufacturers and suppliers to ensure the high quality of our equipment. Each device is thoroughly tested before being leased.
-                    </p>
-                    <p>
-                        3. Flexible rental terms: We understand that each client has their own unique requirements. Therefore, we offer flexible rental terms, including various rental terms, delivery and pick-up options, as well as an individual approach to each client.
-                    </p>
-                    <p>
-                        4. Professional Service: Our friendly and experienced team is always ready to help you with choosing the right equipment and answer all your questions. We strive to provide a high level of service and satisfaction to every customer.
-                    </p>
-                    <p>
-                        5.
-                        We are proud that our customers trust us and choose us as their partner in the rental of equipment. Whether it's an event, construction, renovation or any other project, you can rely on us.
-                    </p>
-                    <p>
-                        Contact us today and give us the opportunity to help you turn your ideas into reality. We look forward to working with you and guarantee that your experience with us will be pleasant and successful.
-                    </p>
-                    <p>
-                        Thank you for choosing our equipment rental store!
+                        Text
                     </p>
                 </div>
             </div>

@@ -17,6 +17,7 @@
     <link rel="stylesheet" href="{{asset('adm/css/style.css')}}">
     <!-- endinject -->
     <link rel="shortcut icon" href="{{asset('adm/images/favicon.png')}}" />
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
 </head>
 <body>
 <div class="container-scroller">

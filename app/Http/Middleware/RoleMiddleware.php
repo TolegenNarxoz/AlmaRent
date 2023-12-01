@@ -23,4 +23,5 @@ class RoleMiddleware
         }
         return response()->view('errors.noperm');
     }
+
 }

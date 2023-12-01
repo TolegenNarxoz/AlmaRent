@@ -49,7 +49,7 @@
                              data-paddingbottom="[0,0,0,0]"
                              data-paddingleft="[0,0,0,20]"
 
-                             style="z-index: 5;  white-space: normal; text-transform: none;">RentStore</div>
+                             style="z-index: 5;  white-space: normal; text-transform: none;">AlmaRent</div>
                         <div class="tp-caption tp-resizeme textRes"
                              data-x="['left','left','center','center']"
                              data-hoffset="['0']"
@@ -102,7 +102,7 @@
                              data-paddingbottom="[0,0,0,0]"
                              data-paddingleft="[0,0,0,25]"
 
-                             style="z-index: 5;"><img src="{{asset('images/home/RENTstore.png')}}" alt="">
+                             style="z-index: 5;"><img src="{{asset('images/home/arent.png')}}" alt="">
                         </div>
                     </li>
                     <li class="rev-slidebg">
@@ -189,7 +189,7 @@
                              data-paddingbottom="[0,0,0,0]"
                              data-paddingleft="[0,0,0,25]"
 
-                             style="z-index: 5;"><img src="{{asset('images/home/RENTstore.png')}}" alt="">
+                             style="z-index: 5;"><img src="{{asset('images/home/arent.png')}}" alt="">
                         </div>
                     </li>
                 </ul>
@@ -208,37 +208,38 @@
         <div class="container">
             <div class="row">
                 <div class="col-lg-12">
-                    <h2 class="sec-title">Product Categories</h2>
+                    <h2 class="sec-title">Car Categories</h2>
                     <p class="sec-desc">
-                        Popular categories
+                        Categories
                     </p>
                 </div>
             </div>
             <div class="row">
                 <div class="col-lg-2 col-md-4">
                     <a href="{{route('products.category', $cat=1)}}" class="single-cate">
-                        <i class="flaticon-drone"></i>
-                    </a>
-                </div>
-                <div class="col-lg-2 col-md-4">
-                    <a href="{{route('products.category', $cat=7)}}" class="single-cate">
-                        <i class="flaticon-console"></i>
-                    </a>
-                </div>
-                <div class="col-lg-2 col-md-4">
-                    <a href="{{route('products.category', $cat=4)}}" class="single-cate">
-                        <i class="flaticon-photo-camera"></i>
+                        <img src="   https://cdn-icons-png.flaticon.com/512/5903/5903336.png " width="256" height="256" alt="" title="" class="img-small">
+
                     </a>
                 </div>
                 <div class="col-lg-2 col-md-4">
                     <a href="{{route('products.category', $cat=2)}}" class="single-cate">
-                        <i class="flaticon-pc"></i>
+                        <img src="https://cdn-icons-png.flaticon.com/512/5029/5029183.png " width="100" height="100" alt="" title="" class="img-small">
+
+                    </a>
+                </div>
+                <div class="col-lg-2 col-md-4">
+                    <a href="{{route('products.category', $cat=3)}}" class="single-cate">
+                        <img src="   https://cdn-icons-png.flaticon.com/512/2211/2211425.png " width="256" height="256" alt="" title="" class="img-small">
+                    </a>
+                </div>
+                <div class="col-lg-2 col-md-4">
+                    <a href="{{route('products.category', $cat=4)}}" class="single-cate">
+                        <img src="   https://cdn-icons-png.flaticon.com/512/6606/6606622.png " width="256" height="256" alt="" title="" class="img-small">
                     </a>
                 </div>
             </div>
         </div>
         <!-- shpage -->
-        <div class="cate-shage"><img src="{{asset('images/home/shape1.png')}}" alt=""></div>
     </section>
     <!-- Categories Section End -->
 @endsection
