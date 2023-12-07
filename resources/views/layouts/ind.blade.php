@@ -143,7 +143,7 @@
                     </p>
                     <p>
                         Телефон: +7 777-777-77-77
-                        Email: narxoz@narxoz.kz
+                        Email: alma.rent7@gmail.com
                     </p>
                 </aside>
             </div>
