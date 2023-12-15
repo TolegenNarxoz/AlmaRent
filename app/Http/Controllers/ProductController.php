@@ -50,11 +50,18 @@ class ProductController extends Controller
 //            'content_kz' => 'required|max:500',
             'price' => 'required|numeric',
             'category_id' => 'required|numeric|exists:categories,id',
-            'img1' => 'required|',
-            'img2' => 'required|',
-            'img3' => 'required|',
-//            'img1' => 'required|image|mimes:jpg,png,jpeg,gif,svg|max:2048',
+            'img1' => 'required|image|mimes:jpg,png,jpeg,gif,svg',
+            'img2' => 'required|image|mimes:jpg,png,jpeg,gif,svg',
+            'img3' => 'required|image|mimes:jpg,png,jpeg,gif,svg',
         ]);
+        if ($request['img1'] && $request['img2'] && $request['img3']) {
+            $request->file('img1')->store('public/products');
+            $request->file('img2')->store('public/products');
+            $request->file('img3')->store('public/products');
+            $validated['img1'] = '/storage/products/' . $request->file('img1')->hashName();
+            $validated['img2'] = '/storage/products/' . $request->file('img2')->hashName();
+            $validated['img3'] = '/storage/products/' . $request->file('img3')->hashName();
+        }
 
 //        $fileName = time().$request->file('img1')->getClientOriginalName();
 //        $image_path = $request->file('img1')->storeAs('products', $fileName, 'public');
