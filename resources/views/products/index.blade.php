@@ -16,9 +16,13 @@
                                 <li><a href="{{route('products.category', $cat->id)}}">{{$cat->name}}</a></li>
                             </ul>
                         @endforeach
-                        <ul>
-                            <li><input class="form-control search-form" placeholder="Search"></li>
-                        </ul>
+{{--                        <form action="{{route('products.search')}}" method="GET">--}}
+{{--                        <ul>--}}
+{{--                            <li><input class="form-control search-form" name="search" placeholder="Search"></li>--}}
+{{--                        <button class="btn btn-btn success" type="submit">Search</button>--}}
+{{--                        </ul>--}}
+
+{{--                        </form>--}}
                     </div>
 
                 </div>

@@ -24,7 +24,8 @@ Route::post('/register', [RegisterController::class, 'register'])->name('registe
 Route::get('/login', [LoginController::class, 'create'])->name('login.form');
 Route::post('/login', [LoginController::class, 'login'])->name('login');
 
-Route::get('products/category/{category}',[ProductController::class, 'productsByCategory'])->name('products.category');
+Route::get('products/category/search',[ProductController::class, 'index'])->name('products.search');
+
 
 Route::middleware('auth')->group(function (){
 

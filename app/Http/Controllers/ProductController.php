@@ -29,9 +29,14 @@ class ProductController extends Controller
         return view('products.index', ['products' => $category->products, 'categories'=> Category::all()]);
     }
 
-    public function index(){
+    public function index(Request $request){
         $allProducts = Product::all();
+        if($request->search){
+            $allProducts = Product::where('name', 'LIKE', '%'.$request->search.'%')->get();
+        }
+
         return view('products.index', ['products' => $allProducts, 'categories'=> Category::all()] );
+
     }
 
 
@@ -50,7 +55,7 @@ class ProductController extends Controller
 //            'content_kz' => 'required|max:500',
             'price' => 'required|numeric',
             'category_id' => 'required|numeric|exists:categories,id',
-            'img1' => 'required|',
+            'img1' => 'required|img',
             'img2' => 'required|',
             'img3' => 'required|',
 //            'img1' => 'required|image|mimes:jpg,png,jpeg,gif,svg|max:2048',
@@ -79,7 +84,7 @@ class ProductController extends Controller
     public function update(Request $request, Product $product){
         $product->update([
             'name' => $request->name,
-            'content' => $request->content,
+            'content' => $request->input('content'),
 //            'content_en' => 'required|max:500',
 //            'content_ru' => 'required|max:500',
 //            'content_kz' => 'required|max:500',

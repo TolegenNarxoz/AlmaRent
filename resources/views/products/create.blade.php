@@ -46,15 +46,15 @@
                             </div>
                             <div class="form-group">
                                 <label for="imgInput" class="form-label">Main IMG</label>
-                                <input type="text" class="form-control" name="img1" >
+                                <input type="file" class="form-control" name="img1" >
                             </div>
                             <div class="form-group">
                                 <label for="imgInput" class="form-label">IMG-2</label>
-                                <input type="text" class="form-control" name="img2" >
+                                <input type="file" class="form-control" name="img2" >
                             </div>
                             <div class="form-group">
                                 <label for="imgInput" class="form-label">IMG-3</label>
-                                <input type="text" class="form-control" name="img3" >
+                                <input type="file" class="form-control" name="img3" >
                             </div>
 {{--                            <div class="form-group">--}}
 {{--                                <label for="imgInput" class="form-label">IMG-2</label>--}}
