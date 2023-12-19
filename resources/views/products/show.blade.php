@@ -29,9 +29,9 @@
                             </div>
                         </div>
                         <ol class="carousel-indicators clearfix">
-                            <li data-target="#product-slider" data-slide-to="0" class="active"><img src="{{$product->img1}}" alt=""></li>
-                            <li data-target="#product-slider" data-slide-to="1"><img src="{{$product->img2}}" alt=""></li>
-                            <li data-target="#product-slider" data-slide-to="2"><img src="{{$product->img3}}" alt=""></li>
+                            <li data-target="#product-slider" data-slide-to="0" class="active"><img src="{{asset($product->img1)}}" alt=""></li>
+                            <li data-target="#product-slider" data-slide-to="1"><img src="{{asset($product->img2)}}" alt=""></li>
+                            <li data-target="#product-slider" data-slide-to="2"><img src="{{asset($product->img3)}}" alt=""></li>
                         </ol>
                     </div>
                 </div>
